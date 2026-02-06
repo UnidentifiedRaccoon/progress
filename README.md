@@ -6,6 +6,8 @@ A circular progress bar built with pure HTML & CSS using `conic-gradient`.
 
 [Live demo on GitHub Pages](https://unidentifiedraccoon.github.io/progress/)
 
+[![asciicast](https://asciinema.org/a/EubhPovT0acMZFub.svg)](https://asciinema.org/a/EubhPovT0acMZFub)
+
 ## Screenshot
 
 The component displays a coral-colored ring progress indicator (~68%) on a dark card, with a Mars landscape background.
