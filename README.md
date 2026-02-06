@@ -4,7 +4,7 @@ A circular progress bar built with pure HTML & CSS using `conic-gradient`.
 
 ## Demo
 
-[Live demo on GitHub Pages](https://yura-posledov.github.io/progress/)
+[Live demo on GitHub Pages](https://unidentifiedraccoon.github.io/progress/)
 
 ## Screenshot
 
