@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("images/mars-bg.jpg") center / cover no-repeat;
+}
+
+.card {
+  width: 280px;
+  height: 280px;
+  background: #1a1a1a;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(
+    from 235deg,
+    rgba(255, 255, 255, 0.08) 0% 29%,
+    transparent 29% 31%,
+    #e8685a 31% 99%,
+    transparent 99% 100%
+  );
+}
+
+.progress::before {
+  content: "";
+  position: absolute;
+  inset: 38px;
+  border-radius: 50%;
+  background: #1a1a1a;
+}
+
+.progress__label {
+  position: relative;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #e8685a;
+}
